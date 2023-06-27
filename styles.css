@@ -1,0 +1,119 @@
+body {
+    background-color: #011627;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+h1 {
+    color: #ffce00;
+    font-style: italic;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 0 0 10px cyan;
+}
+
+main {
+    margin: 0 auto;
+    width: 80%;
+    height: 90%;
+    background: url("https://i.pinimg.com/originals/cb/54/76/cb54767d48ef382e0b5d66ccc16f86f9.jpg") no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+header {
+    display: inline-block;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header h2 {
+    color: white;
+    padding: 4vh;
+    display: table-column;
+    text-align: center;
+
+}
+#chaos {
+    color: cyan;
+}
+#order {
+    color: #D33F49;
+}
+
+.column {
+    float: left; 
+    border: rgb(78, 78, 64) 1px solid;
+    box-sizing: border-box;
+    height: 100%;
+}
+.column.small {
+    width: 18%;
+}
+.column.large {
+    width: 64%;
+  
+}
+.teamNames {
+    color: white;
+    width: 100%;
+}
+
+.chaos {
+    display: inline-block;
+}
+
+.order {
+    float: right;
+}
+
+.order h2 {
+    text-align: right;
+}
+
+.player {
+    border: 2px solid rgb(78, 78, 64);
+    height: 20%;
+    box-sizing: border-box;
+    opacity: 60%;
+}
+
+.player.red {
+    background-color: #D33F49;
+}
+
+.player.blue {
+    background-color: cyan;
+}
+
+#selector {
+    color: white;
+    text-align: center;
+    width: 64%;
+}
+
+#selector.row.sm {
+    width: 30vw;
+    height: 20vh;
+    box-sizing: border-box;
+    border: 3px solid yellow;
+    background-color: red;
+}
+
+#selector.row.lg {
+
+}
+
+footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: slategray;
+    opacity: 70%; 
+}
+
+footer h3 {
+    text-align: center;
+    padding-top: 2vh;
+}
