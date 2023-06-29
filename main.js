@@ -1,216 +1,216 @@
 const gods = [
     {
-        name:"Achilles",
+        name: "Achilles",
         type: "Warrior",
         profilePic: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fsmite_gamepedia%2Fimages%2F6%2F66%2FSkinArt_Achilles_Default.jpg%2Frevision%2Flatest%2Fscale-to-width-down%2F250%3Fcb%3D20180309034323&tbnid=oxa0OjI4zWLpdM&vet=12ahUKEwjO1aOkneL_AhUHkrAFHQJyBJkQMygAegUIARDkAQ..i&imgrefurl=https%3A%2F%2Fsmite.fandom.com%2Fwiki%2FAchilles&docid=eFYJHZsECb7i8M&w=250&h=333&q=achilles%20smite&ved=2ahUKEwjO1aOkneL_AhUHkrAFHQJyBJkQMygAegUIARDkAQ"
     },
     {
-        name:"Agni",
+        name: "Agni",
         type: "Mage",
         profilePic: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fsmite_gamepedia%2Fimages%2F2%2F29%2FSkinArt_Agni_Default.jpg%2Frevision%2Flatest%3Fcb%3D20160505051933&tbnid=6XXUUQXOEHspkM&vet=12ahUKEwjchqetneL_AhUhg4kEHSrSAiUQMygAegQIARB2..i&imgrefurl=https%3A%2F%2Fsmite.fandom.com%2Fwiki%2FAgni&docid=bqnX4jIqh1MNMM&w=750&h=1000&q=agnismite&ved=2ahUKEwjchqetneL_AhUhg4kEHSrSAiUQMygAegQIARB2"
     },
     {
-        name:"Ah Muzen Cab",
+        name: "Ah Muzen Cab",
         type: "Hunter",
         profilePic: "https://www.google.com/imgres?imgurl=https%3A%2F%2Fstatic.wikia.nocookie.net%2Fsmite_gamepedia%2Fimages%2F1%2F10%2FSkinArt_AhMuzenCab_Default.jpg%2Frevision%2Flatest%3Fcb%3D20160505051943&tbnid=Ej2EdkHd_MsqXM&vet=12ahUKEwicg_q5neL_AhXAkokEHe_XA_oQMygAegUIARDfAQ..i&imgrefurl=https%3A%2F%2Fsmite.fandom.com%2Fwiki%2FAh_Muzen_Cab&docid=j9KffpGLbmnuTM&w=750&h=1000&q=ah%20muzen%20cab%20smite&ved=2ahUKEwicg_q5neL_AhXAkokEHe_XA_oQMygAegUIARDfAQ"
     },
     {
-        name:"Ah Puch",
+        name: "Ah Puch",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/c/c9/SkinArt_AhPuch_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160505051959"
     },
     {
-        name:"Amaterasu",
+        name: "Amaterasu",
         type: "Warrior",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/8/8a/SkinArt_Amaterasu_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160108210941"
     },
     {
-        name:"Anhur",
+        name: "Anhur",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/1/1e/SkinArt_Anhur_Default.jpg/revision/latest?cb=20160505052008"
     },
     {
-        name:"Anubis",
+        name: "Anubis",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/5/59/SkinArt_Anubis_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160505052018"
     },
     {
-        name:"Ao Kuang",
+        name: "Ao Kuang",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/3/3b/SkinArt_AoKuang_Default.jpg/revision/latest?cb=20160505052030"
     },
     {
-        name:"Aphrodite",
+        name: "Aphrodite",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/3/3b/SkinArt_Aphrodite_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160505052038"
     },
     {
-        name:"Apollo",
+        name: "Apollo",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite/images/b/bd/Apollo.jpg/revision/latest?cb=20140503051317"
     },
     {
-        name:"Arachne",
+        name: "Arachne",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite/images/c/c1/Arachne.jpg/revision/latest?cb=20160428165000"
     },
     {
-        name:"Ares",
+        name: "Ares",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/3/33/SkinArt_Ares_Default.jpg/revision/latest/scale-to-width-down/250?cb=20200716001425"
     },
     {
-        name:"Artemis",
+        name: "Artemis",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite/images/9/96/Artemis.jpg/revision/latest?cb=20150425225723"
     },
     {
-        name:"Artio",
+        name: "Artio",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/4/4c/SkinArt_Artio_Default.jpg/revision/latest/scale-to-width-down/250?cb=20170728125143"
     },
     {
-        name:"Athena",
+        name: "Athena",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite/images/8/83/Athena.jpg/revision/latest?cb=20150425230038"
     },
     {
-        name:'Atlas',
+        name: 'Atlas',
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/9/95/SkinArt_Atlas_Default.jpg/revision/latest?cb=20220421093906"
     },
     {
-        name:"Awilix",
+        name: "Awilix",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/0/00/SkinArt_Awilix_Default.jpg/revision/latest?cb=20160505052122"
     },
     {
-        name:"Baba Yaga",
+        name: "Baba Yaga",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/2/23/SkinArt_BabaYaga_Default.jpg/revision/latest?cb=20200603102402"
     },
     {
-        name:"Bacchus",
+        name: "Bacchus",
         type: "Guardian",
         profilePic: "https://i.redd.it/ocighiiuref71.jpg"
     },
     {
-        name:"Bakasura",
+        name: "Bakasura",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite/images/4/4f/Bakasura.jpg/revision/latest?cb=20141015183458"
     },
     {
-        name:"Baron Samedi",
+        name: "Baron Samedi",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/3/38/SkinArt_BaronSamedi_Default.jpg/revision/latest?cb=20180628042044"
     },
     {
-        name:"Bastet",
+        name: "Bastet",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/c/c7/SkinArt_Bastet_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160505052145"
     },
     {
-        name:"Bellona",
+        name: "Bellona",
         type: "Warrior",
         profilePic: "https://static.wikia.nocookie.net/smite/images/f/f5/Bellona.jpg/revision/latest?cb=20150304012246"
     },
     {
-        name:"Cabrakan",
+        name: "Cabrakan",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite/images/6/63/Cabrakan.jpg/revision/latest?cb=20140819124123"
     },
     {
-        name:"Camazotz",
+        name: "Camazotz",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/5/5a/SkinArt_Camazotz_Default.jpg/revision/latest?cb=20161005211230"
     },
     {
-        name:"Cerberus",
+        name: "Cerberus",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/d/de/SkinArt_Cerberus_Default.jpg/revision/latest?cb=20180109181100"
     },
     {
-        name:"Cernunnos",
+        name: "Cernunnos",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/f/f0/SkinArt_Cernunnos_Default.jpg/revision/latest/scale-to-width-down/250?cb=20170308234455"
     },
     {
-        name:"Chaac",
+        name: "Chaac",
         type: "Warrior",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/e/e4/SkinArt_Chaac_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160505052215"
     },
     {
-        name:"Chang'e",
+        name: "Chang'e",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/9/95/SkinArt_ChangE_Default.jpg/revision/latest/scale-to-width-down/250?cb=20160505052226"
     },
     {
-        name:"Charybdis",
+        name: "Charybdis",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/9/94/SkinArt_Charybdis_Default.jpg/revision/latest?cb=20210825012544"
     },
     {
-        name:"Chernobog",
+        name: "Chernobog",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/6/65/SkinArt_Chernobog_Default.jpg/revision/latest?cb=20180421205659"
     },
     {
-        name:"Chiron",
+        name: "Chiron",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/8/8b/SkinArt_Chiron_Default.jpg/revision/latest?cb=20151111222807"
     },
     {
-        name:"Chronos",
+        name: "Chronos",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/a/a8/SkinArt_Chronos_Default.jpg/revision/latest?cb=20160505052233"
     },
     {
-        name:"Cliodhna",
+        name: "Cliodhna",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/6/64/T_Cliodhna_Default_Card.png/revision/latest?cb=20211019210542"
     },
     {
-        name:"Cthulhu",
+        name: "Cthulhu",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/2/22/SkinArt_Cthulhu_Default.jpg/revision/latest?cb=20200616161842"
     },
     {
-        name:"Cu Chulainn",
+        name: "Cu Chulainn",
         type: "Warrior",
         profilePic: "https://static.wikia.nocookie.net/smite/images/1/15/CuChulainn.jpg/revision/latest?cb=20170614211851"
     },
     {
-        name:"Cupid",
+        name: "Cupid",
         type: "Hunter",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/6/69/SkinArt_Cupid_Default.jpg/revision/latest?cb=20160505052246"
     },
     {
-        name:"Da Ji",
+        name: "Da Ji",
         type: "Assassin",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/4/43/SkinArt_DaJi_Default.jpg/revision/latest/scale-to-width-down/250?cb=20170517230119"
     },
     {
-        name:"Danzaburou",
+        name: "Danzaburou",
         type: "Hunter",
         profilePic: "https://static.smite.guru/i/champions/cards/danzaburou.jpg"
     },
     {
-        name:"Discordia",
+        name: "Discordia",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/5/58/SkinArt_Discordia_Default.jpg/revision/latest/scale-to-width-down/250?cb=20171106214703"
     },
     {
-        name:"Erlang Shen",
+        name: "Erlang Shen",
         type: "Warrior",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/0/01/SkinArt_ErlangShen_Default.jpg/revision/latest?cb=20160630021258"
     },
     {
-        name:"Eset",
+        name: "Eset",
         type: "Mage",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/4/47/SkinArt_Eset_Default.jpg/revision/latest?cb=20191112163619"
     },
     {
-        name:"Fafnir",
+        name: "Fafnir",
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/4/49/SkinArt_Fafnir_Default.jpg/revision/latest?cb=20160607220723"
     },
@@ -631,28 +631,41 @@ const gods = [
     // }
 ]
 
-// const populateGods = (gods) => {
+const populateGods = (gods) => {
 
-    // const selector = document.getElementById("selector");
-//     for(let i = 0; i < gods.length; i++) {
+    const picks = document.getElementById("picks");
+    // const head = document.createElement("h2");
+    // const node = document.createTextNode("This is new");
+    // head.appendChild(node);
+    // picks.appendChild(head);
+    for (let i = 0; i < gods.length; i++) {
 
-//         if(i % 3 == 0) {
-//             const row = document.createElement("div");
-//             row.setAttribute("class", "row");
-//             selector.appendChild(row);
-//         }
-//         const newGodDiv = document.createElement("div");
-//         const newGodContent = document.createTextNode(gods[i].name);
-        
-            
+        // if (i % 3 == 0) {
+        //     const row = document.createElement("div");
+        //     row.setAttribute("class", "row");
+        //     console.log(row)
+        //     picks.appendChild(row);
+        // }
+        const newGodDiv = document.createElement("div");
+        const newGodName = document.createElement("p");
+        const nameNode = document.createTextNode(gods[i].name)
+        newGodName.append(nameNode);
+        newGodDiv.appendChild(newGodName);
 
-//         };
-//         newGodDiv.appendChild(newGodContent);
-//         newGodDiv.setAttribute("name", gods[i].name);
-//         selector.appendChild(newGodDiv);
-//     }
+        const newGodImg = document.createElement("img");
+        newGodImg.setAttribute("src", `./imgs/${gods[i].name}.webp`);
+        newGodImg.setAttribute("alt", `${gods[i].name} picture`);
 
-// };
+        newGodDiv.appendChild(newGodImg);
 
 
+        newGodDiv.setAttribute("name", gods[i].name);
+        newGodDiv.setAttribute("class", "god");
+        newGodDiv.setAttribute("data-type", gods[i].type)
+        picks.appendChild(newGodDiv);
+    }
+    
+}
+
+populateGods(gods);
 

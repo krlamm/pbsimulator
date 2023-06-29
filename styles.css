@@ -138,6 +138,28 @@ header h2 {
     float: left
 }
 
+#picks {
+    color: #fff;
+    font-size: 3rem;
+    overflow-y: scroll;
+
+}
+
+#picks .god {
+    background-color: rgba(64, 74, 74, 0.6);
+    width: 16%;
+    height: 20%;
+    float: left;
+    font-size: .75rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.god img {
+    width: 100%;
+    height: 60%;
+}
+
 .teamPicks.flr .row.round2 .pick {
     float: right;
     margin-left: 0;
