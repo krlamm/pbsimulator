@@ -115,23 +115,26 @@ header h2 {
 .teamPicks {
     width: 50%;
     height: 40%;
-    border: 1px yellow solid;
     box-sizing: border-box;
     float: left;
+    background-color: rgba(102, 51, 153, 0.6);
 }
 
 .teamPicks .row {
     width: 100%;
     height: 50%;
-    border: 1px greenyellow solid;
     box-sizing: border-box;
     padding: 3vh auto;
+}
+
+.teamPicks .pick {
+    box-sizing: border-box;
+    border: 1px solid white;
 }
 
 .teamPicks .row.round2 .pick {
     width: 30%;
     height: 70%;
-    border: 1px greenyellow solid;
     box-sizing: border-box;
     margin: 3vh 0;
     margin-left: 1vw;
@@ -147,17 +150,21 @@ header h2 {
 
 #picks .god {
     background-color: rgba(64, 74, 74, 0.6);
-    width: 16%;
-    height: 20%;
+    width: 10%;
+    height: 30%;
     float: left;
     font-size: .75rem;
     box-sizing: border-box;
     border: 1px solid white;
 }
 
+.god p {
+    margin: 1vh 0;
+}
+
 .god img {
     width: 100%;
-    height: 60%;
+    height: 80%;
 }
 
 .teamPicks.flr .row.round2 .pick {
@@ -169,7 +176,6 @@ header h2 {
 .teamPicks .row.round1 .pick {
     width: 30%;
     height: 70%;
-    border: 1px greenyellow solid;
     box-sizing: border-box;
     margin: 3vh 0;
     margin-left: .6vw;
