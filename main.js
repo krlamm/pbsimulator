@@ -214,458 +214,499 @@ const gods = [
         type: "Guardian",
         profilePic: "https://static.wikia.nocookie.net/smite_gamepedia/images/4/49/SkinArt_Fafnir_Default.jpg/revision/latest?cb=20160607220723"
     },
-    // {
-    //     name:"Fenrir",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Freya",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ganesha",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Geb",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Gilgamesh",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Guan Yu",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hachiman",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hades",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"He Bo",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Heimdallr",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hel",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hera",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hercules",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Horus",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hou Yi",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Hun Batz",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ishtar",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ix Chel",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Izanami",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Janus",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Jing Wei",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Jormungandr",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Kali",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Khepri",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"King Arthur",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Kukulkan",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Kumbhakarna",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Kuzenbo",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Lancelot",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Loki",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Martichoras",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Maui",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Medusa",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Mercury",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Merlin",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Morgan Le Fay",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Mulan",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ne Zha",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Neith",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Nemesis",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Nike",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Nox",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Nu Wa",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Odin",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Olorun",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Osiris",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Pele",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Persephone",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Poseidon",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ra",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Raijin",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Rama",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ratatoskr",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ravana",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Scylla",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Serqet",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Set",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Shiva",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Skadi",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Sobek",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Sol",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Sun Wukong",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Surtr",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Susano",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Sylvanus",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Terra",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Thanatos",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"The Morrigan",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Thor",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Thoth",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Tiamat",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Tsukuyomi",
-    //     type: "Assassin",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Tyr",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ullr",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Vamana",
-    //     type: "Warrior",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Vulcan",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Xbalanque",
-    //     type: "Hunter",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Xing Tian",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Yemoja",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Ymir",
-    //     type: "Guardian",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Yu Huang",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Zeus",
-    //     type: "Mage",
-    //     profilePic: ""
-    // },
-    // {
-    //     name:"Zhong Kui",
-    //     type: "Mage",
-    //     profilePic: ""
-    // }
+    {
+        name: "Fenrir",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Freya",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Ganesha",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Geb",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Gilgamesh",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Guan Yu",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Hachiman",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Hades",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "He Bo",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Heimdallr",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Hel",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Hera",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Hercules",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Horus",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Hou Yi",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Hun Batz",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Ishtar",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Ix Chel",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Izanami",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Janus",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Jing Wei",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Jormungandr",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Kali",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Khepri",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "King Arthur",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Kukulkan",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Kumbhakarna",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Kuzenbo",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Lancelot",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Loki",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Martichoras",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Maui",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Medusa",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Mercury",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Merlin",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Morgan Le Fay",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Mulan",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Ne Zha",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Neith",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Nemesis",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Nike",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Nox",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Nu Wa",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Odin",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Olorun",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Osiris",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Pele",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Persephone",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Poseidon",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Ra",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Raijin",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Rama",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Ratatoskr",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Ravana",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Scylla",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Serqet",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Set",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Shiva",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Skadi",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Sobek",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Sol",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Sun Wukong",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Surtr",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Susano",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Sylvanus",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Terra",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Thanatos",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "The Morrigan",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Thor",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Thoth",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Tiamat",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Tsukuyomi",
+        type: "Assassin",
+        profilePic: ""
+    },
+    {
+        name: "Tyr",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Ullr",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Vamana",
+        type: "Warrior",
+        profilePic: ""
+    },
+    {
+        name: "Vulcan",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Xbalanque",
+        type: "Hunter",
+        profilePic: ""
+    },
+    {
+        name: "Xing Tian",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Yemoja",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Ymir",
+        type: "Guardian",
+        profilePic: ""
+    },
+    {
+        name: "Yu Huang",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Zeus",
+        type: "Mage",
+        profilePic: ""
+    },
+    {
+        name: "Zhong Kui",
+        type: "Mage",
+        profilePic: ""
+    }
 ]
 
-const populateGods = (gods) => {
-
-    const picks = document.getElementById("picks");
-    // const head = document.createElement("h2");
-    // const node = document.createTextNode("This is new");
-    // head.appendChild(node);
-    // picks.appendChild(head);
+const populateGods = (gods, type) => {
     for (let i = 0; i < gods.length; i++) {
 
-        // if (i % 3 == 0) {
-        //     const row = document.createElement("div");
-        //     row.setAttribute("class", "row");
-        //     console.log(row)
-        //     picks.appendChild(row);
-        // }
-        const newGodDiv = document.createElement("div");
-        const newGodName = document.createElement("p");
-        const nameNode = document.createTextNode(gods[i].name)
-        newGodName.append(nameNode);
-        newGodDiv.appendChild(newGodName);
-
-        const newGodImg = document.createElement("img");
-        newGodImg.setAttribute("src", `./imgs/${gods[i].name}.webp`);
-        newGodImg.setAttribute("alt", `${gods[i].name} picture`);
-
-        newGodDiv.appendChild(newGodImg);
-
-
-        newGodDiv.setAttribute("name", gods[i].name);
-        newGodDiv.setAttribute("class", "god");
-        newGodDiv.setAttribute("data-type", gods[i].type)
-        picks.appendChild(newGodDiv);
+        switch(type) {
+            case "Warrior":
+                if (gods[i].type == "Warrior") {
+                    createGodElement(gods[i].name, gods[i].type);
+                }
+                break;
+            case "Mage":
+                if (gods[i].type == "Mage") {
+                    createGodElement(gods[i].name, gods[i].type);
+                }
+                break;
+            case "Hunter":
+                if (gods[i].type == "Hunter") {
+                    createGodElement(gods[i].name, gods[i].type);
+                }
+                break;
+            case "Guardian":
+                if (gods[i].type == "Guardian") {
+                    createGodElement(gods[i].name, gods[i].type);
+                }
+                break;
+            case "Assassin":
+                if (gods[i].type == "Assassin") {
+                    createGodElement(gods[i].name, gods[i].type);
+                }
+                break;
+        }
     }
-    
 }
 
-populateGods(gods);
+const createGodElement = (godName, godType) => {
+    const picks = document.getElementById("picks");
 
+    const newGodDiv = document.createElement("div");
+    const newGodName = document.createElement("p");
+    const nameNode = document.createTextNode(godName)
+    newGodName.append(nameNode);
+    newGodDiv.appendChild(newGodName);
+
+    const newGodImg = document.createElement("img");
+    newGodImg.setAttribute("src", `./imgs/${godName}.webp`);
+    newGodImg.setAttribute("alt", `${godName} picture`);
+
+    newGodDiv.appendChild(newGodImg);
+
+    newGodDiv.setAttribute("name", godName);
+    newGodDiv.setAttribute("class", "god");
+    newGodDiv.setAttribute("data-type", godType)
+    picks.appendChild(newGodDiv);
+}
+
+const emptyGods = () => {
+    const picks = document.getElementById("picks");
+    picks.innerHTML = "";
+}
+
+
+// const hirez = require("hirez-api");
+// const api = new hirez.Paladins({
+//     platform: "PC",
+//     devId: config.hirez_dev_id,
+//     authKey: config.hirez_auth_key,
+// });
+// api.getMatchDetails(123456789).then(console.log);
+
+window.onload = () => {
+    const types = document.getElementsByClassName("type");
+
+    for (let i = 0; i < types.length; i++) {
+        console.log(types[i])
+        types[i].onclick = (event) => {
+            emptyGods();
+            populateGods(gods, event.target.innerHTML)
+        }
+    }
+}
