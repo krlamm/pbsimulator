@@ -162,14 +162,16 @@ header h2 {
 #typeSelector {
     width: 100%;
     height: 10%;
-    color: black;
+    color: ivory;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 #typeSelector .type {
     width: 20%;
+    height: 100%;
     float: left;
     padding: 1vh 0;
-    border: 1px solid black;
+    border: 1px solid ivory;
     box-sizing: border-box;
     font-size: 1.3em;
 }
@@ -207,7 +209,7 @@ header h2 {
 #picks .god {
     background-color: black;
     width: 12%;
-    height: 35%;
+    /* height: 35%; */
     float: left;
     font-size: .75rem;
     box-sizing: border-box;
@@ -221,29 +223,30 @@ header h2 {
 }
 
 #picks .god p {
-    margin: 1vh auto;
-    max-height: 20%;
+    margin: 0;
+    line-height: 3vh;
+    /* max-height: 20%; */
 }
 
 #picks .god img {
     /* padding: 0  1vw; */
 }
 
-.god p {
-    margin: 1vh 0;
-}
-
 .pick .god {
-    height: 100%;
+    /* height: 100%; */
+    width: 100%;
+    background-color: black;
 }
 
 .pick .god p {
     margin: 0;
-    background-color: black;
+    line-height: 3vh;
+    height: 3vh;
+    width: 100%;
 }
 
 .pick .god img {
-    height: 80%;    
+    width: 80%; 
 }
 
 .god img {
