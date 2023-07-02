@@ -118,6 +118,7 @@ header h2 {
     box-sizing: border-box;
     float: left;
     background-color: rgba(102, 51, 153, 0.6);
+    padding-top: 2vh;
 }
 
 .teamPicks .row {
@@ -174,13 +175,17 @@ header h2 {
 }
 
 #picks .god {
-    background-color: rgba(64, 74, 74, 0.6);
+    background-color: black;
     width: 7%;
     height: 30%;
     float: left;
     font-size: .75rem;
     box-sizing: border-box;
     border: 1px solid white;
+}
+
+#picks .god p {
+    margin: 1vh auto;
 }
 
 .god p {
@@ -193,6 +198,7 @@ header h2 {
 
 .pick .god p {
     margin: 0;
+    background-color: black;
 }
 
 .pick .god img {
