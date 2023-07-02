@@ -65,7 +65,7 @@ header h2 {
     height: 100%;
 }
 .column.small {
-    width: 7.5%;
+    width: 10%;
 }
 .column.large {
     width: 100%;
@@ -106,7 +106,7 @@ header h2 {
 #selector {
     color: white;
     text-align: center;
-    width: 85%;
+    width: 80%;
     height: 100%;
     background-color: rgba(1, 22, 39, 0.7);
     margin: 0 auto;
@@ -118,7 +118,7 @@ header h2 {
     box-sizing: border-box;
     float: left;
     background-color: rgba(102, 51, 153, 0.6);
-    padding-top: 2vh;
+    padding-top: 1vh;
 }
 
 .teamPicks .row {
@@ -132,7 +132,7 @@ header h2 {
     box-sizing: border-box;
     border: 1px solid white;
     width: 20%;
-    height: 70%;
+    height: 90%;
     float: left;
     margin: 0 1vw;
 }
@@ -149,13 +149,21 @@ header h2 {
 #typeSelector .type {
     width: 20%;
     float: left;
+    padding: 1vh 0;
+    border: 1px solid white;
+    box-sizing: border-box;
+}
+
+#typeSelector .type:hover {
+    background: white;
+    color: black;
 }
 
 #picks {
     color: #fff;
     font-size: 3rem;
     height: 90%;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .player .god {
@@ -176,16 +184,27 @@ header h2 {
 
 #picks .god {
     background-color: black;
-    width: 7%;
-    height: 30%;
+    width: 14%;
+    height: 35%;
     float: left;
     font-size: .75rem;
     box-sizing: border-box;
     border: 1px solid white;
+    margin: 1vh 1vw;
+}
+
+#picks .god:hover {
+    background-color: white;
+    color: black;
 }
 
 #picks .god p {
     margin: 1vh auto;
+    max-height: 20%;
+}
+
+#picks .god img {
+    /* padding: 0  1vw; */
 }
 
 .god p {
@@ -206,8 +225,8 @@ header h2 {
 }
 
 .god img {
-    width: 100%;
-    height: 80%;
+    width: 90%;
+    height: 75%;
 }
 
 #selector .row.sm {

@@ -87,6 +87,9 @@ for(let i = 0; i < banContainers.length; i++) {
     banContainers[i].addEventListener("drop", () => {
         console.log("dropped")
         const draggable = document.querySelector('.dragging');
+        while(pickContainers[i].firstChild) {
+            pickContainers[i].removeChild(pickContainers[i].firstChild);
+        }
         banContainers[i].appendChild(draggable);
     });
 }
@@ -98,8 +101,11 @@ for(let i = 0; i < pickContainers.length; i++) {
     });
 
     pickContainers[i].addEventListener("drop", () => {
-        console.log("dropped")
+        console.log(pickContainers[i])
         const draggable = document.querySelector('.dragging');
+        while(pickContainers[i].firstChild) {
+            pickContainers[i].removeChild(pickContainers[i].firstChild);
+        }
         pickContainers[i].appendChild(draggable);
     });
 }
