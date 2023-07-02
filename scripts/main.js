@@ -124,10 +124,18 @@ window.onload = () => {
     const types = document.getElementsByClassName("type");
 
     for (let i = 0; i < types.length; i++) {
-        console.log(types[i])
         types[i].onclick = (event) => {
-            emptyGods();
-            populateGods(gods, event.target.innerHTML)
+            if(event.target.parentNode.dataset.clicked != event.target.innerHTML) {
+                console.log("was not clicked: " + event.target.innerHTML)
+                emptyGods();
+                populateGods(gods, event.target.innerHTML)
+                event.target.parentNode.dataset.clicked = event.target.innerHTML;
+            } else {
+                console.log("was already clicked: " + event.target.name)
+
+                emptyGods();
+                event.target.parentNode.dataset.clicked = event.target.innerHTML;
+            }
         }
     }
 
