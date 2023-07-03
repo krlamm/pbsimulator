@@ -1,3 +1,12 @@
+:root {
+ --hunter: rgb(150, 97, 0);
+ --mage: rgb(79, 5, 79);
+ --guardian: rgb(3, 122, 3);
+ --warrior: rgb(88, 7, 7);
+ --assassin: rgb(150, 135, 5);
+
+}
+
 body {
     background-color: #011627;
     height: 100vh;
@@ -40,26 +49,26 @@ header h2 {
     color: #D33F49;
 }
 
-.hunter {
-    background-color: rgb(208, 119, 3)
+
+.god.Warrior {
+    background-color: var(--warrior)
 }
 
-.mage {
-    background-color: rebeccapurple
+.god.Mage {
+    background-color: var(--mage)
 }
 
-.guardian {
-    background-color: green
+.god.Hunter {
+    background-color: var(--hunter)
 }
 
-.warrior {
-    background-color: rgb(155, 0, 0)
+.god.Guardian {
+    background-color: var(--guardian)
 }
 
-.assassin {
-    background-color: rgb(255, 255, 0)
+.god.Assassin {
+    background-color: var(--assassin)
 }
-
 
 #selector .row.sm.blue {
     width: 49%;
@@ -119,7 +128,7 @@ header h2 {
 }
 
 .player.blue {
-    background-color: cyan;
+    background-color: rgba(0, 255, 255, 0.6);
 }
 
 #selector {
@@ -195,19 +204,49 @@ header h2 {
     width: 100%;
 }
 
+.player.red .god {
+    background-color: rgba(211, 63, 73, 0.6);
+}
+
+.player.blue .god {
+    background-color: rgba(0, 255, 255, 0.6);
+}
+
 
 .player .god p {
     background-color: black;
     color: white;
     margin: 0;
+    margin-left: 0.38vw;
+    width: 90%;
 }
+
+.player .god.Warrior p {
+    background-color: var(--warrior);
+}
+
+.player .god.Mage p {
+    background-color: var(--mage);
+}
+
+.player .god.Hunter p {
+    background-color: var(--hunter);
+}
+
+.player .god.Guardian p {
+    background-color: var(--guardian);
+}
+
+.player .god.Assassin p {
+    background-color: var(--assassin);
+}
+
 
 .player .god img {
     height: 90%;
 }
 
 #picks .god {
-    background-color: black;
     width: 12%;
     /* height: 35%; */
     float: left;
@@ -233,9 +272,8 @@ header h2 {
 }
 
 .pick .god {
-    /* height: 100%; */
+    height: 100%;
     width: 100%;
-    background-color: black;
 }
 
 .pick .god p {
