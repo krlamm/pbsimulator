@@ -5,7 +5,7 @@ import {
 const populateGods = (gods, type) => {
     for (let i = 0; i < gods.length; i++) {
 
-        switch(type) {
+        switch (type) {
             case "Warrior":
                 if (gods[i].type == "Warrior") {
                     createGodElement(gods[i].name, gods[i].type);
@@ -40,13 +40,14 @@ const createGodElement = (godName, godType) => {
     const newGodDiv = document.createElement("div");
     newGodDiv.setAttribute("data-name", godName);
     newGodDiv.setAttribute("class", "god");
+    newGodDiv.classList.add(godType)
     newGodDiv.setAttribute("data-type", godType);
     newGodDiv.setAttribute("draggable", "true");
-    
+
     const newGodName = document.createElement("p");
     const nameNode = document.createTextNode(godName)
     newGodName.append(nameNode);
-    
+
     const newGodImg = document.createElement("img");
     newGodImg.setAttribute("src", `./imgs/${godName}.webp`);
     newGodImg.setAttribute("alt", `${godName} picture`);
@@ -79,7 +80,7 @@ const pickGod = (name) => {
 }
 
 const banContainers = document.getElementsByClassName("pick");
-for(let i = 0; i < banContainers.length; i++) {
+for (let i = 0; i < banContainers.length; i++) {
     banContainers[i].addEventListener("dragover", (event) => {
         event.preventDefault();
     });
@@ -87,26 +88,32 @@ for(let i = 0; i < banContainers.length; i++) {
     banContainers[i].addEventListener("drop", () => {
         console.log("dropped")
         const draggable = document.querySelector('.dragging');
-        while(pickContainers[i].firstChild) {
-            pickContainers[i].removeChild(pickContainers[i].firstChild);
+        while (banContainers[i].firstChild) {
+            banContainers[i].removeChild(banContainers[i].firstChild);
         }
         banContainers[i].appendChild(draggable);
+        const currentType = document.getElementById("typeSelector").dataset.clicked
+        emptyGods()
+        populateGods(gods, currentType)
     });
 }
 
 const pickContainers = document.getElementsByClassName("player");
-for(let i = 0; i < pickContainers.length; i++) {
+for (let i = 0; i < pickContainers.length; i++) {
     pickContainers[i].addEventListener("dragover", (event) => {
-       event.preventDefault();
+        event.preventDefault();
     });
 
     pickContainers[i].addEventListener("drop", () => {
         console.log(pickContainers[i])
         const draggable = document.querySelector('.dragging');
-        while(pickContainers[i].firstChild) {
+        while (pickContainers[i].firstChild) {
             pickContainers[i].removeChild(pickContainers[i].firstChild);
         }
         pickContainers[i].appendChild(draggable);
+        const currentType = document.getElementById("typeSelector").dataset.clicked
+        emptyGods()
+        populateGods(gods, currentType)
     });
 }
 
@@ -125,15 +132,23 @@ window.onload = () => {
 
     for (let i = 0; i < types.length; i++) {
         types[i].onclick = (event) => {
-            if(event.target.parentNode.dataset.clicked != event.target.innerHTML) {
+            if (event.target.parentNode.dataset.clicked != event.target.innerHTML) {
                 console.log("was not clicked: " + event.target.innerHTML)
                 emptyGods();
                 populateGods(gods, event.target.innerHTML)
                 event.target.parentNode.dataset.clicked = event.target.innerHTML;
             } else {
                 console.log("was already clicked: " + event.target.name)
-
-                emptyGods();
+                const selector = document.getElementById("picks")
+                if (selector.innerHTML == "") {
+                    // selector is empty
+                    console.log("selector empty")
+                    populateGods(gods, event.target.parentNode.dataset.clicked)
+                } else {
+                    // selector is not empty
+                    console.log("selector not empty")
+                    emptyGods();
+                }
                 event.target.parentNode.dataset.clicked = event.target.innerHTML;
             }
         }
